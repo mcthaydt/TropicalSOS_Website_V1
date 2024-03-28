@@ -1,4 +1,10 @@
 <!-- The Developers -->
+<script lang="ts">
+	function redirectToDevelopersPage() {
+		location.href = 'https://www.fiverr.com/john_doom';
+	}
+</script>
+
 <h1 class="my-10 mb-10 text-center font-mono text-5xl font-bold">Our Partners</h1>
 <div class="my-20 overflow-x-auto font-mono">
 	<table class="table">
@@ -34,7 +40,9 @@
 				</td>
 				<td>Abyss of The Self (2024)</td>
 				<th>
-					<button class="btn btn-ghost btn-xs">Developer's Page</button>
+					<button class="btn btn-ghost btn-xs font-mono" on:click={() => redirectToDevelopersPage()}
+						>Developer's Page</button
+					>
 				</th>
 			</tr>
 		</tbody>

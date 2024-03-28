@@ -1,4 +1,8 @@
 <!-- Social Proof -->
+<div class="float-right px-10 py-5 font-mono font-bold sm:visible md:hidden">
+	<p>Scroll!</p>
+</div>
+
 <div class="m-10 flex justify-center overflow-hidden font-mono">
 	<div class="stats overflow-y-hidden">
 		<div class="stat">

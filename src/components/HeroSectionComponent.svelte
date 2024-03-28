@@ -1,4 +1,11 @@
 <!-- Hero -->
+
+<script lang="ts">
+	function redirectToIncubationLink() {
+		location.href = 'https://airtable.com/appXHTA7AlnHepg5g/pagAC8lXi0DL9rz8e/form';
+	}
+</script>
+
 <div class="hero relative min-h-screen">
 	<video
 		src="/HeroHeader.mp4"
@@ -15,7 +22,9 @@
 				At TropicalSOS, we partner with developers to craft captivating, data-driven prototypes and
 				vertical slices that compel investors and secure full funding for your game project.
 			</p>
-			<button class="btn btn-primary font-mono">Incubation Application</button>
+			<button class="btn btn-primary font-mono" on:click={() => redirectToIncubationLink()}
+				>Incubation Application</button
+			>
 		</div>
 	</div>
 </div>
